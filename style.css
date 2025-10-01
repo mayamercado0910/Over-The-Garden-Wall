@@ -1,1 +1,54 @@
+/* Special header fonts */
+h1, h2, h3 {
+  font-family: 'Georgia', serif;
+  font-weight: 700;
+  color: brown; /* changed to brown */
+}
+
+/* Unique color schemes */
+body {
+  background-color: cream; /* changed from soft light to cream */
+  color: brown; /* changed from slate to brown */
+}
+
+/* Custom borders, backgrounds, or spacing */
+.section-special {
+  border: 2px solid #e67e22; /* warm orange border */
+  background: linear-gradient(135deg,#FFFDD0 0%, #d35400 100%);
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+/* Custom button style overriding Bootstrap */
+.btn-custom {
+  background-color: #27ae60;
+  border-color: #27ae60;
+  color: white;
+}
+
+.btn-custom:hover {
+  background-color: #2ecc71;
+  border-color: #27ae60;
+}
+
+/* Example custom card tweak */
+.card-custom {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+/* Keep your mobile tweaks */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+    font-size: 0.9em;
+  }
+  h1, h2, h3 {
+    font-size: 1.5em;
+  }
+}
 
