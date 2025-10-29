@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Over the Garden Wall</title>
+
   <!-- Bootstrap CSS CDN -->
   <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -12,10 +13,10 @@
     crossorigin="anonymous"
   />
 
-  <!-- Your Custom CSS (load last for priority) -->
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="css/style.min.css" />
 
-  <!-- Inline critical CSS -->
+  <!-- Inline Critical CSS -->
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -24,15 +25,18 @@
       background: yellow !important;
       color: red !important;
     }
+
     header, footer {
       background: #f4f4f4;
       padding: 1rem;
       text-align: center;
     }
+
     h1, h2, h3 {
       margin: 0.5rem 0;
       color: red !important;
     }
+
     nav ul {
       list-style: none;
       padding: 0;
@@ -40,26 +44,49 @@
       display: flex;
       justify-content: center;
     }
+
     nav ul li {
       margin: 0 1rem;
     }
+
     nav a {
       text-decoration: none;
       color: #007acc;
     }
+
     main {
       padding: 2rem 0;
     }
+
     img {
       max-width: 100%;
       height: auto;
       display: block;
       margin: 1rem 0;
       border-radius: 4px;
-    } 
+    }
+
+    .section-special {
+      margin-bottom: 3rem;
+    }
+
+    .card-custom {
+      background: #fff8dc;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background: #f4f4f4;
+      padding: 1rem;
+      text-align: center;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
 
 <body>
-
   <div class="container">
 
     <header>
@@ -67,7 +94,7 @@
       <nav>
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="page2.html">Page 2</a></li> <!-- New link to Page 2 -->
+          <li><a href="page2.html">Page 2</a></li>
         </ul>
       </nav>
     </header>
@@ -79,11 +106,10 @@
         <div class="row align-items-center">
           <div class="col-md-6">
             <h2>Wirt</h2>
-            <p>Wirt is the older step brother of Greg. He is more serious and goal oriented. Throughout the show, he learns more about being a role model for Greg, build empathy, and confidence as a leader. </p>
+            <p>Wirt is the older stepbrother of Greg. He is more serious and goal-oriented. Throughout the show, he learns about being a role model for Greg, building empathy, and gaining confidence as a leader.</p>
           </div>
           <div class="col-md-6">
-            <img src="https://tse2.mm.bing.net/th/id/OIP.FnrsQErSTiZY-QL4aGwZsQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3">
-alt=<”Wirt”>
+            <img src="https://tse2.mm.bing.net/th/id/OIP.FnrsQErSTiZY-QL4aGwZsQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Wirt">
           </div>
         </div>
       </div>
@@ -93,11 +119,10 @@ alt=<”Wirt”>
         <div class="row align-items-center">
           <div class="col-md-6 order-md-2">
             <h2>Greg</h2>
-            <p>Greg is Wirt’s younger step brother. He is very curious and slightly oblivious to the situation he and his brother is in. Throughout the show, he learns more about responsibility but also helps Wirt learn as well.</p>
+            <p>Greg is Wirt’s younger stepbrother. He is curious and slightly oblivious to the situation he and his brother are in. Throughout the show, he learns about responsibility and helps Wirt grow as well.</p>
           </div>
           <div class="col-md-6 order-md-1">
-            <img src="https://tse1.mm.bing.net/th/id/OIP.tVftCar8etvLtpyGkAGivAAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" 
-alt="Greg">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.tVftCar8etvLtpyGkAGivAAAAA?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Greg">
           </div>
         </div>
       </div>
@@ -107,19 +132,18 @@ alt="Greg">
         <div class="row align-items-center">
           <div class="col-md-6">
             <h2>Beatrice</h2>
-            <p>Beatrice is a Blue Bird that we later learn was once a human. She leads the boys to Adalaide so that she can “send them home” but it was really a trap, but Beatrice knew and was willing to sacrifice the boys to make her human again. She later changes her mind and helps the boys escape Adalaide and still becomes human again.</p>
+            <p>Beatrice is a Bluebird who was once human. She leads the boys to Adelaide, claiming she can “send them home,” but it’s really a trap. Beatrice initially plans to sacrifice the boys to regain her humanity but later changes her mind and helps them escape. Eventually, she still becomes human again.</p>
           </div>
           <div class="col-md-6">
-            <img src="https://tse2.mm.bing.net/th/id/OIP.Ky7x56EQgY2VGOSFJjPqGQHaEG?rs=1&pid=ImgDetMain&o=7&rm=3" 
-alt="Beatrice">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.Ky7x56EQgY2VGOSFJjPqGQHaEG?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Beatrice">
           </div>
         </div>
       </div>
 
-      <!-- Optional Card -->
+      <!-- Bonus Card -->
       <div class="card-custom mt-5">
         <h3>Bonus Fact</h3>
-        <p>Did you know that Over the Garden Wall won a 5 different awards between 2015 and 2016?</p>
+        <p>Did you know that <em>Over the Garden Wall</em> won five different awards between 2015 and 2016?</p>
       </div>
 
     </main>
@@ -129,3 +153,8 @@ alt="Beatrice">
     </footer>
 
   </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
